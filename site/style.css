@@ -370,3 +370,19 @@ footer nav {
     scroll-behavior: auto;
   }
 }
+
+.logo-heading {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 0 2rem;
+  line-height: 0;
+}
+
+.band-logo {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  object-fit: contain;
+  object-position: left center;
+}
