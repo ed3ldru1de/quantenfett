@@ -98,7 +98,7 @@ function renderGigs(icsText) {
 }
 
 function renderMusik(cfg) {
-  const labels = { youtube: 'YouTube', spotify: 'Spotify', bandcamp: 'Bandcamp', instagram: 'Instagram' };
+  const labels = { instagram: 'Instagram', youtube:'YouTube', spotify: 'Spotify', bandcamp: 'Bandcamp', paypal: 'paypal'};
   const items = Object.entries(labels)
     .filter(([k]) => cfg[k])
     .map(([k, label]) => `<li><a href="${esc(cfg[k])}" rel="noopener">${label}</a></li>`);
