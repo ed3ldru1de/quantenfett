@@ -63,10 +63,16 @@ time,
 }
 
 /* Links etwas prägnanter */
+/* Links in Rot */
 a {
+  color: #d9573a;
   text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
 }
 
+a:hover {
+  color: #f4f3ee;
+}
 /* Fließtext angenehm lesbar halten */
 p {
   line-height: 1.7;
